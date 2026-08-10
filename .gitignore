@@ -1,11 +1,24 @@
+# Virtual environment
 .venv/
+venv/
+env/
+
+# Python
 __pycache__/
 *.pyc
+
+# Jupyter
 .ipynb_checkpoints/
+
+# VS Code
 .vscode/
 
-# Dataset files
-dataset/*.parquet
+# Large datasets
+dataset/
+*.parquet
+
+# Large trained model
+model.pkl
 
 # Environment/secrets
 .env
