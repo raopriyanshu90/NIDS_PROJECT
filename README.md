@@ -15,7 +15,7 @@ The results are displayed through an interactive cybersecurity dashboard built w
 
 ## ✨ Features
 
-- 📂 Upload network traffic data in CSV format
+- 📂 Upload network traffic data in Parquet format
 - 🤖 Machine learning-based intrusion detection
 - 🎚️ Adjustable detection sensitivity threshold
 - 📊 Live traffic monitoring visualization
@@ -62,7 +62,7 @@ NIDS_PROJECT/
 The system follows the following workflow:
 
 ```text
-Network Traffic CSV
+Network Traffic Parquet File
         │
         ▼
    Data Upload
@@ -168,7 +168,7 @@ The application loads these components using Joblib before performing prediction
 
 ## 📁 Dataset
 
-The application expects network traffic data in CSV format.
+The application expects network traffic data in Parquet (`.parquet`) format.
 
 The uploaded dataset must contain the features required by the trained machine learning model.
 
